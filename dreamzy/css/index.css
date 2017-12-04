@@ -60,4 +60,50 @@
   border-right: 1px solid #CFD0D3;
 }
 
+.show{
+  position: relative;
+  height: 450px;
+  background: url("../imgs/pic-01.jpg") no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.show--title {
+  color: #00000E;
+  margin: 0;
+  padding: 10px;
+  font-size: 2.5em;
+  font-weight: 400;
+  font-stretch: expanded;
+  letter-spacing: .05em;
+}
+
+.show--summary, .show--btn, .show--sidebar {
+  font-size: .3em;
+}
+
+.show--summary {
+  margin: 0;
+}
+
+.show--btn {
+  -webkit-appearance: none;
+  margin: 20px 0;
+  padding: 10px 15px;
+  width: 180px;
+  background: #FFFFFF;
+  outline: none;
+  border: 1px solid #D3D5DA;
+  border-radius: 15px;
+}
+
+.show--sidebar {
+  position: absolute;
+  left: -5em;
+  transform: rotate(-90deg);
+  background-color: #FFC037;
+  color: #fff;
+  padding: .6em 1em;
+}
+
 
