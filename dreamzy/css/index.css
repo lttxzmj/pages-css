@@ -106,4 +106,33 @@
   padding: .6em 1em;
 }
 
+.feature {
+  display: flex;
+  text-align: center;
+  height: 200px;
+}
+
+.feature--item:first-child {
+  margin-left: 4em;
+}
+
+.feature--item:last-child {
+  margin-right: 4em;
+}
+
+.feature--item {
+  margin: 0 .5em;
+}
+
+.feature--item__title {
+  font-size: .5em;
+  font-weight: bold;
+}
+
+.feature--item__text {
+  font-size: .2em;
+  font-weight: lighter;
+  color: #555658;
+}
+
 
