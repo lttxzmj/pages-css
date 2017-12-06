@@ -550,6 +550,9 @@
   float: left;
   margin: 0;
   left: 20px;
+  border: none;
+  outline: none;
+  appearance: none;
 }
 
 .email__go {
@@ -589,6 +592,8 @@
 
 .footer__social {
   overflow: hidden;
+  height: 100px;
+  line-height: 100px;
   margin: 40px;
 }
 
