@@ -66,6 +66,7 @@
   background: url("../imgs/pic-01.jpg") no-repeat;
   background-size: cover;
   text-align: center;
+  padding-top: 60px;
 }
 
 .show__title {
@@ -139,11 +140,7 @@
   background: #F2F2F2;
 }
 
-.intro__text {
-  display: flex;
-}
-
-.intro__text {
+.intro__text, .touch__phone, .touch__email {
   display: block;
   padding-left: 30px;
   height: 30px;
@@ -151,7 +148,7 @@
   margin: 2em 3em;
 }
 
-.intro__text:before {
+.intro__text::before, .touch__phone::before, .touch__email::before{
   content: '';
   width: 30px;
   height: 30px;
@@ -499,4 +496,112 @@
 
 .comment__pre--blur {
   filter: opacity(25%);
+}
+
+.footer__info {
+  display: flex;
+  margin: 30px;
+}
+
+.info__brand--left {
+  width: 20%;
+  font-weight: bold;
+  color: #53DFB6;
+}
+
+.info__title {
+  font-size: .8em;
+  font-weight: bold;
+}
+
+.info__menu-list, .info__menu-tip, .info__address-content, .email__text {
+  display: block;
+  font-size: .5em;
+  color: #898C96;
+  margin-top: 20px;
+}
+
+.info__menu-content, .info__menu-tip span{
+  display: block;
+}
+
+.info__menu-tip {
+  margin-top: 20px;
+}
+
+.subscript__email {
+  overflow: hidden;
+  height: 40px;
+  width: 250px;
+  border: 1px solid #EEF1F3;
+  position: relative;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.email__text, .email__go {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.email__text {
+  width: 100px;
+  float: left;
+  margin: 0;
+  left: 20px;
+}
+
+.email__go {
+  float: right;
+  right: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.email__go::after {
+  content: '';
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+  background: #94F1D2;
+  position: absolute;
+  top: -7px;;
+  left: -12px;
+  z-index: -1;
+}
+
+.touch__phone, .touch__email{
+  color: #97999D;
+  margin: 20px 0;
+  padding-left: -40px;
+}
+
+.touch__phone::before {
+  background: url('../imgs/footer-icon-01.jpg') no-repeat;
+  background-size: cover;
+}
+
+.touch__email::before {
+  background: url('../imgs/footer-icon-02.jpg') no-repeat;
+  background-size: cover;
+}
+
+.footer__social {
+  overflow: hidden;
+  margin: 40px;
+}
+
+.footer__social--left {
+  float: left;
+  color: #B9C5CF;
+}
+
+.footer__social--right {
+  float: right;
+  font-size: 1.5em;
+}
+
+.footer__social--right>i {
+  margin: 20px;
 }
