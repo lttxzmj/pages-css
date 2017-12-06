@@ -396,3 +396,35 @@
   font-size: .3em;
   color: #949698;
 }
+
+.goods__guarantee {
+  height: 350px;
+  background: #94F1D2;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.guarantee__brand {
+  margin-top: 20px;
+}
+
+.guarantee__brand-title {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+.guarantee__sub-title {
+  font-size: .3em;
+}
+
+.guarantee__content {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.guarantee__brand-subtitle, .guarantee__sub-content {
+  color: #496F6B;
+  margin: 0;
+}
