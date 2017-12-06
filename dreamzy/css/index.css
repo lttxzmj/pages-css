@@ -428,3 +428,75 @@
   color: #496F6B;
   margin: 0;
 }
+
+.comment {
+  display: flex;
+  height: 450px;
+  background: url('../imgs/comment-bg.jpg') no-repeat;
+  background-size: 100% 100%;
+}
+
+.comment__content {
+  background: #009F8E;
+  width: 200px;
+  height: 350px;
+  color: #fff;
+  margin: 30px 100px;
+  padding: 20px;
+}
+
+.comment__icon {
+  font-size: 2em;
+  margin: 10px;
+}
+
+.comment__star {
+  color: #FFC131;
+  font-size: .5em;
+  margin-top: 10px;
+}
+
+.comment__word, .comment__person-name {
+  color: #A3D0C9;
+  font-size: .5em;
+}
+
+.comment__person {
+  display: flex;
+  align-items: center;
+}
+
+.comment__person-avater {
+  width: 35px;
+  height: 35px;
+  border-radius: 40px;
+  transform: rotate(-30deg);
+}
+
+.comment__person-name {
+  font-weight: bold;
+  margin: 10px;
+}
+
+.comment__more {
+  overflow: hidden;
+  height: 80px;
+}
+
+.comment__pre, .comment__next {
+  font-size: 3em;
+  font-weight: lighter;
+  color: #D9E8E5;
+}
+
+.comment__pre {
+  float: left;
+}
+
+.comment__next {
+  float: right;
+}
+
+.comment__pre--blur {
+  filter: opacity(25%);
+}
